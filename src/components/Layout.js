@@ -7,8 +7,8 @@ const Layout = props => {
   return (
     <Fragment>
       <Helmet>
-        <meta charSet="utf-8" /> <title>My Title</title>{" "}
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta charSet="utf-8" />
+        <title>Let's Write Some Novels</title>
         <link
           href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,500&display=swap"
           rel="stylesheet"
