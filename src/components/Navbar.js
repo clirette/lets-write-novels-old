@@ -8,7 +8,7 @@ const StyledNavbar = styled.nav`
   background-color: #57507c;
   display: flex;
   justify-content: space-between;
-  max-height: 8vh;
+  max-height: 10vh;
 `
 
 const LinkContainer = styled.div`
@@ -102,7 +102,7 @@ class Navbar extends Component {
     this.navbarContainer = React.createRef()
   }
 
-  hamburgerClick = () => {
+  hamburgerClick = e => {
     // Use classes defined in stylesheet for hamburger expanding/collapsing
     this.navbarContainer.current.classList.toggle("styledNavbarExpanded")
     this.linkContainer.current.classList.toggle("linkContainerExpanded")
