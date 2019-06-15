@@ -13,6 +13,10 @@ const Layout = props => {
           href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,500&display=swap"
           rel="stylesheet"
         />
+        <meta
+          name="viewport"
+          content="width=device-width,height=device-height,initial-scale=1.0"
+        />
       </Helmet>
       <Navbar />
       {props.children}
