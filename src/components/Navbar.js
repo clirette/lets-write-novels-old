@@ -106,6 +106,7 @@ class Navbar extends Component {
     // Use classes defined in stylesheet for hamburger expanding/collapsing
     this.navbarContainer.current.classList.toggle("styledNavbarExpanded")
     this.linkContainer.current.classList.toggle("linkContainerExpanded")
+    this.forceUpdate()
   }
 
   render() {
