@@ -52,8 +52,10 @@ const StyledLink = styled(Link)`
   font-weight: 500;
   letter-spacing: 0.1rem;
   transition: color 0.3s ease-in-out;
-  &:hover {
-    color: #fff;
+  @media (hover: hover) {
+    &:hover {
+      color: #fff;
+    }
   }
 `
 
@@ -75,19 +77,17 @@ const Banner = styled.div`
   margin: auto;
   clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
   transition: all 0.3s ease-in-out;
-  &:hover {
-    padding-top: 3rem;
-    height: 13rem;
+  @media (hover: hover) {
+    &:hover {
+      padding-top: 3rem;
+      height: 13rem;
+    }
   }
 
   @media ${device.mobileL} {
     height: 7rem;
     width: 7rem;
     font-size: 1rem;
-    &:hover {
-      padding-top: 3rem;
-      height: 9rem;
-    }
   }
 `
 
