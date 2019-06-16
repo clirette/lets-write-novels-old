@@ -131,7 +131,9 @@ class Navbar extends Component {
           </StyledLink>
         </LinkContainer>
         <BannerContainer>
-          <Banner>Free Storybuilding Workbook</Banner>
+          <Link to="/workshop" style={{ textDecoration: "none" }}>
+            <Banner>Free Storybuilding Workbook</Banner>
+          </Link>
         </BannerContainer>
       </StyledNavbar>
     )

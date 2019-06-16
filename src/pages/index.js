@@ -37,7 +37,7 @@ export default () => (
     <Hero />
     <LandingContainer>
       <LandingDescriptionText>
-        Welcome to Let’s Write Some a Novels, a site full of writing advice for
+        Welcome to Let’s Write Some Novels, a site full of writing advice for
         budding novelists. Select a post to begin learning!
       </LandingDescriptionText>
     </LandingContainer>
