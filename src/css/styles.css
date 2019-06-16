@@ -14,12 +14,12 @@ body {
 
 /* BEGIN HAMBURGER MENU TOGGLE */  
 .styledNavbarExpanded {
-  max-height: none;
+  max-height: none !important;
 }
 
 .linkContainerExpanded {
-  display: flex;
-  flex-direction: column;
-  font-size: 2rem;
+  display: flex !important;
+  flex-direction: column !important;
+  font-size: 2rem !important;
 }
 /* END HAMBURGER MENU TOGGLE */
